@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  border-bottom: 1px black solid;
+  text-align: center;
+  padding: 20px 20px;
+  margin: 10px;
+}
+
+.logo {
+  width: 150px;
+}
+
+h1 {
+  font-size: 100px;
+  display: inline;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: blue;
+}
+
+main {
+  margin: 20px;
+  padding: 20px;
+}
+
+h3 {
+  text-align: left;
+  text-decoration: underline;
+  margin: 20px;
+  font-size: 30px;
+}
+
+.contImg1 {
+  width: 600px;
+  margin: 10px 10px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.contImg1 p {
+  background-color: aqua;
+  color: black;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+.imgPrin1 {
+  width: 100%;
+  height: 520px;
+  border-radius: 5px;
+}
+
+.contImg {
+  width: 500px;
+  margin: 20px 100px;
+  border: 3px solid black;
+  border-radius: 15px;
+  display: inline-block;
+  box-shadow: 5px 5px;
+}
+
+.contImg p {
+  background-color: aqua;
+  text-align: center;
+  color: red;
+  text-transform: uppercase;
+  font-size: 50px;
+  display: inline-block;
+}
+
+.imgPrin {
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+}
+
+.contEsp {
+  width: 300px;
+  margin: 40px 80px;
+  border: 3px solid black;
+  border-radius: 15px;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 5px 5px;
+}
+
+.imgEsp {
+  width: 100%;
+  height: 500px;
+  border-radius: 5px;
+}
+
+.contEsp p {
+  background-color: aqua;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.prin {
+  display: block;
+}
+
+.sucPrin {
+  display: inline-block;
+  font-size: 25px;
+  text-align: left;
+  width: 500px;
+  height: auto;
+  margin: 20px;
+}
+
+iframe {
+  width: 500px;
+  height: 300px;
+  display: inline-block;
+}
+
+img {
+  width: 30px;
+}
+
+.sucPrin p {
+  display: inline;
+  font-size: 25px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input,
+textarea {
+  display: block;
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.botonesForm {
+  display: inline;
+  width: 150px;
+  background-color: aquamarine;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px;
+}
+
+footer {
+  margin: 10px;
+  padding: 20px;
+  border-top: 1px solid black;
+  text-align: right;
+}
+
+h4 {
+  display: inline-block;
+}
