@@ -1,4 +1,10 @@
 /* Encabezado */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body {
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
+}
 
 .logo {
   width: 150px;
@@ -49,22 +55,17 @@ a {
 
 .subtitulo {
   background-color: #13B52D;
-  text-align: center;
   font-weight: bold;
   padding: 15px;
   color: #fafafa;
 }
 
 .subtitulo h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
+/* PORTADA QUIENES SOMOS*/
 
-
-main {
-  margin: 20px;
-  padding: 20px;
-}
 
 h3 {
   text-align: left;
@@ -74,14 +75,11 @@ h3 {
 }
 
 .contImg1 {
-  width: 600px;
-  margin: 10px 10px;
   border-radius: 15px;
-  display: inline-block;
 }
 
 .contImg1 p {
-  background-color: aqua;
+  background-color: #33FFAC;
   color: black;
   font-size: 30px;
   border-radius: 5px;
@@ -89,10 +87,12 @@ h3 {
 
 .imgPrin1 {
   width: 100%;
-  height: 520px;
+  height: 100%;
   border-radius: 5px;
+  object-fit: contain;
 }
 
+/* PROMOCIONES */
 .contImg {
   width: 500px;
   margin: 20px 100px;
@@ -199,13 +199,21 @@ textarea {
   padding: 5px;
 }
 
+/* FOOTER */
+
 footer {
-  margin: 10px;
-  padding: 20px;
-  border-top: 1px solid black;
-  text-align: right;
+  border-top: 10px solid #13B52D;
+  border-bottom: 10px solid #13B52D;
+  background-color: #33FFAC;
 }
 
-h4 {
-  display: inline-block;
+footer img {
+  width: 50px;
+}
+
+/* LOGO DE WHATSAPP */
+.logwap {
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
 }
