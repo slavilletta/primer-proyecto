@@ -7,7 +7,7 @@ body {
 }
 
 .logo {
-  width: 150px;
+  width: 120px;
 }
 
 .encabezado {
@@ -16,8 +16,12 @@ body {
 
 }
 
+.cesta {
+  width: 50px;
+}
+
 h1 {
-  font-size: 6rem;
+  font-size: 4rem;
 }
 
 
@@ -33,7 +37,7 @@ a {
 }
 
 .menuNav a {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: solid;
   border-left: 1px solid black;
   border-right: 1px solid black;
@@ -44,11 +48,6 @@ a {
   background-color: #13B52D;
   color: #fafafa;
   transition: all 0.3ms;
-}
-
-.cesta {
-  margin: 50px;
-  width: 50px;
 }
 
 /* Subtitulo */
@@ -125,6 +124,7 @@ h3 {
 .prodImg {
   height: 300px;
   width: 100%;
+  border-radius: 3px;
 }
 
 .productos {
